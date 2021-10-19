@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   height: 100vh;
+}
+#catimg,#dogimg{
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.main{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(196, 150, 238);
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.first,.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
